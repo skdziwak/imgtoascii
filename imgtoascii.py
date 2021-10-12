@@ -10,7 +10,7 @@ def main():
     parser.add_argument('--width', action='store', type=int, default=128, help='Output width')
     parser.add_argument('--height', action='store', type=int, default=128, help='Output height')
     parser.add_argument('--charset', action='store', type=str,
-                        default='"$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,"^`',
+                        default='$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,"^`\'.',
                         help='Charset for ASCII image generator.')
     args = parser.parse_args()
 
