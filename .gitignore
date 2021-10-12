@@ -1,0 +1,6 @@
+venv
+*.jpeg
+*.png
+*.bmp
+*.jpg
+.idea
