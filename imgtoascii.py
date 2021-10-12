@@ -24,11 +24,11 @@ def main():
 
     matrix -= np.min(matrix)
     matrix = matrix / float(np.max(matrix))
-    matrix *= len(CHARSET) - 1
+    matrix *= len(args.charset) - 1
     matrix = np.rint(matrix)
     for y in range(matrix.shape[0]):
         for x in range(matrix.shape[1]):
-            sys.stdout.write(CHARSET[int(matrix[y][x])])
+            sys.stdout.write(args.charset[int(matrix[y][x])])
         sys.stdout.write('\n')
 
 
